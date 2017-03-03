@@ -120,5 +120,5 @@ def sigmoid_prime(z):
 
 train_data, valid_data, test_data = get_data()
 net = Neural_network([784, 150, 30, 10])
-net.gradient_descent(train_data, 30, 10, 3.0, valid_data)
+net.gradient_descent(train_data, 30, 10, 1.5, valid_data)
 net.predict(test_data)
